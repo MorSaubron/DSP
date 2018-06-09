@@ -1,0 +1,389 @@
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.2 sec].
+Adding annotator sentiment
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator pos
+Reading POS tagger model from edu/stanford/nlp/models/pos-tagger/english-left3words/english-left3words-distsim.tagger ... done [2.1 sec].
+Adding annotator lemma
+Adding annotator ner
+Loading classifier from edu/stanford/nlp/models/ner/english.all.3class.distsim.crf.ser.gz ... done [4.2 sec].
+Loading classifier from edu/stanford/nlp/models/ner/english.muc.7class.distsim.crf.ser.gz ... done [3.5 sec].
+Loading classifier from edu/stanford/nlp/models/ner/english.conll.4class.distsim.crf.ser.gz ... done [3.7 sec].
+Initializing JollyDayHoliday for sutime
+Reading TokensRegex rules from edu/stanford/nlp/models/sutime/defs.sutime.txt
+Reading TokensRegex rules from edu/stanford/nlp/models/sutime/english.sutime.txt
+Dec 02, 2017 6:52:12 PM edu.stanford.nlp.ling.tokensregex.CoreMapExpressionExtractor appendRules
+INFO: Ignoring inactive rule: temporal-composite-8:ranges
+Reading TokensRegex rules from edu/stanford/nlp/models/sutime/english.holidays.sutime.txt
+Dec 02, 2017 6:52:14 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: d2b56cb5-4668-4a74-9353-38dfe63efd09
+Dec 02, 2017 6:52:15 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 339e92cf-2195-4f01-8c9b-86d397bcdf59
+Dec 02, 2017 6:52:15 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: a7027c09-e876-498b-9641-22dd6802e7df
+Dec 02, 2017 6:52:16 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 9b6aa7f3-965c-4d16-8b39-f241a5b7eff6
+Dec 02, 2017 6:52:16 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: a38fe968-6f0b-47c1-84bb-37e6cd0f4b35
+Dec 02, 2017 6:52:17 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: ce223dc6-c0e6-420a-83be-2eb9f122513b
+Dec 02, 2017 6:52:17 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: cc0d3954-55b6-4bc5-8816-d3abc487623a
+Dec 02, 2017 6:52:18 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 010a34c8-99d7-4d95-86ba-dfe3326e673d
+Dec 02, 2017 6:52:18 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: c6605b94-cc99-4518-a4c4-b94b8d1ae87b
+Dec 02, 2017 6:52:18 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 48e740a6-b338-4ffe-a7ea-5b6918d807c9
+Dec 02, 2017 6:52:18 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 078a059e-1343-4659-a6e7-b5888d469853
+Dec 02, 2017 6:52:19 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 2f3aab66-981a-4136-b0cd-dd28829d4158
+Dec 02, 2017 6:52:19 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 45396a89-8435-4b8f-be32-380f89a7281f
+Dec 02, 2017 6:52:30 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 9686d3db-17c1-47e6-9220-1d90019633c6
+Dec 02, 2017 6:52:30 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 69069cbb-305f-4ecd-a457-c8307178dbec
+Dec 02, 2017 6:52:41 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: d711540a-a26c-4b62-b3b1-85d1da37a842
+Dec 02, 2017 6:52:41 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 274ba35e-40c7-4585-92b8-5a453435aeca
+Dec 02, 2017 6:52:50 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: f4deb8b0-cf25-4c62-9f08-abe8ba9f6b66
+Dec 02, 2017 6:52:50 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: aef67ada-6d44-4dba-9045-6e51338b6a65
+Dec 02, 2017 6:52:50 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 501cf80d-ad42-44ad-a4a6-d24247755dcc
+Dec 02, 2017 6:52:51 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: b879f461-73e3-4c5d-a742-ec2f621787d9
+Dec 02, 2017 6:52:51 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: b81e6c78-0ce2-4d7f-ab0b-381c2fa58f5a
+Dec 02, 2017 6:52:54 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 2bd3d651-2d00-4839-aed9-0e7d67f9d1c1
+Dec 02, 2017 6:52:54 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: a34b7c46-db0d-46f2-92c6-61efcdf27838
+Dec 02, 2017 6:52:57 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: c1fbac49-5485-4fc1-8242-21c03f5b464e
+Dec 02, 2017 6:53:01 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 6916f057-694d-4be4-a675-9d91fdc32645
+Dec 02, 2017 6:53:01 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 2e049960-e619-472e-a9b1-0da3bfbd79f4
+Dec 02, 2017 6:53:02 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 176c7e64-6ec2-4da5-8b18-8d1fc60976ed
+Dec 02, 2017 6:53:03 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 14157bae-06db-4810-81c3-7f1a08e9a6ac
+Dec 02, 2017 6:53:20 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 916fc7ed-4cbe-44ee-9134-e40f47c287e2
+Dec 02, 2017 6:53:22 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: f3617115-d0f7-4d7c-9ec4-0d38d6f25392
+Dec 02, 2017 6:53:33 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 313ee9f9-a7a6-4c08-8e59-864e6ced1928
+Dec 02, 2017 6:53:33 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 5fd1efcf-49e8-4c21-9741-88680423b966
+Dec 02, 2017 6:53:36 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: f45ce6ee-0b09-4e7d-9059-6e2930627cb1
+Dec 02, 2017 6:53:36 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 415c1696-ba2b-47a8-bc61-1b352cbfd5dd
+Dec 02, 2017 6:53:36 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: a49288ef-8678-4f11-94fc-605a515bf26d
+Dec 02, 2017 6:53:38 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 75522b41-5b59-41bd-98e9-a700e5a30b58
+Dec 02, 2017 6:53:38 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 017e289b-7c1d-4aaa-98da-16b1e6de5cb6
+Dec 02, 2017 6:53:38 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 8eec4c5e-5b01-4aca-890d-ec9a1b74abca
+Dec 02, 2017 6:53:45 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 9087a9ce-3972-4f60-9c23-226babd67464
+Dec 02, 2017 6:53:46 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 756e5017-87e5-487d-aade-3697517a2ae9
+Dec 02, 2017 6:53:48 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 0b0403b5-f9f7-41a5-9d71-71ec44204004
+Dec 02, 2017 6:53:49 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 6e5f33f5-6319-43bd-bc65-617aa301ceb2
+Dec 02, 2017 6:53:53 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 0398e7d9-0eae-4dbe-8ed7-b0b218d8a3de
+Dec 02, 2017 6:53:53 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 8b10a420-c065-4f84-8148-187359a60517
+Dec 02, 2017 6:53:55 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: e797d53d-d9b2-4a13-959d-0a630e18d2a9
+Dec 02, 2017 6:53:58 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 9940735d-1595-4ede-be15-397331b69c5e
+Dec 02, 2017 6:53:58 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 898f11a8-c22c-40d4-bb95-19c18db605ea
+Dec 02, 2017 6:53:59 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 245e1842-e15b-44b5-88be-7b81f15d214b
+Dec 02, 2017 6:54:04 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 2afe4bed-80e8-49fc-916e-1cc90b8a17a5
+Dec 02, 2017 6:54:04 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 28d0ae67-13e7-4781-bfb2-af11f895cb3b
+Dec 02, 2017 6:54:05 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 9e1fcdd3-7125-42c1-af43-aa5d501a2e2c
+Dec 02, 2017 6:54:05 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: d143193b-0f10-4d45-a225-91125115c61a
+Dec 02, 2017 6:54:05 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 396f923d-f096-4c17-881f-95e3003b06ad
+Dec 02, 2017 6:54:05 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: bb01b8fe-b036-4754-8d38-866038921f9f
+Dec 02, 2017 6:54:05 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 575761e2-7dd4-4d7c-b347-f371ec54541b
+Dec 02, 2017 6:54:06 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 2a6c1e8f-aa06-411a-9c1b-385c55cddf52
+Dec 02, 2017 6:54:06 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 97af408a-0199-4051-a28a-476bfc788f54
+Dec 02, 2017 6:54:06 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: fbe1acba-6393-4d63-bea9-1df6174e2f78
+Dec 02, 2017 6:54:06 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 5296146e-cbd7-4a9e-8270-7c2ad97dd135
+Dec 02, 2017 6:54:06 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 999fe0aa-7e30-472c-b250-b7fa6c21287b
+Dec 02, 2017 6:54:07 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 3662c9b1-ce0b-4c39-97e4-4f0b0993936f
+Dec 02, 2017 6:54:09 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: f9601639-11e4-4568-9712-538c4e2b9a47
+Dec 02, 2017 6:54:10 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 27896d68-bfd7-4e16-99f2-6b1611843a95
+Dec 02, 2017 6:54:11 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 3bf0a9f0-472e-4233-82c4-71abac3ed7a2
+Dec 02, 2017 6:54:11 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 319f5b12-64d0-4331-964b-25428c8db857
+Dec 02, 2017 6:54:12 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 8632cff6-8c31-4538-ba45-6c19d80d0dba
+Dec 02, 2017 6:54:13 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 4787ce94-a871-4d2d-a4f3-a4775637d7c8
+Dec 02, 2017 6:54:16 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 5230594f-89b4-4867-b73c-454e23b615e2
+Dec 02, 2017 6:54:16 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: fdf652bb-4d90-4189-8e12-3e648e05eb13
+Dec 02, 2017 6:54:16 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: bfc992e9-8146-49e7-bdee-b6c1792c2b54
+Dec 02, 2017 6:54:16 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 0390e4ed-086d-4691-bd51-65ba2fd2378a
+Dec 02, 2017 6:54:16 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: f8ff0458-f945-4cdc-9c34-fed1ebb025cb
+Dec 02, 2017 6:54:17 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 00a30255-68db-42ec-a978-69db3c8c5be3
+Dec 02, 2017 6:54:17 PM edu.stanford.nlp.process.PTBLexer next
+WARNING: Untokenizable: ️ (U+FE0F, decimal: 65039)
+Dec 02, 2017 6:54:17 PM edu.stanford.nlp.process.PTBLexer next
+WARNING: Untokenizable: ️ (U+FE0F, decimal: 65039)
+Dec 02, 2017 6:54:17 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: d59726b1-6e6d-463a-8c73-4ff3ec6716d2
+Dec 02, 2017 6:54:17 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 104409b2-5539-4b2f-b0aa-bc257e49f8c3
+Dec 02, 2017 6:54:17 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 3a716a32-2de3-4aca-897b-5c7d9e5be3a5
+Dec 02, 2017 6:54:17 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: cdf19042-d402-4e7c-afa3-ac7796902291
+Dec 02, 2017 6:54:18 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: d386cdd4-8d9b-4bf9-ac92-04e44a369042
+Dec 02, 2017 6:54:18 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 82c9819a-25ad-4f31-816d-d1ef779f137f
+Dec 02, 2017 6:54:19 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 92e424ca-3b1b-41ac-b107-8fb9ec9cb5c0
+Dec 02, 2017 6:54:19 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: ebf30804-9361-4c0e-9ac7-1352d5550f04
+Dec 02, 2017 6:54:19 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 69300173-e102-43c5-a4f1-5b239042bbcd
+Dec 02, 2017 6:54:19 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 9036c5cf-dacd-4c25-a511-29269fd12d7a
+Dec 02, 2017 6:54:21 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 7999f358-8593-4ffc-b1b5-279793fcd5d0
+Dec 02, 2017 6:54:24 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: f608e822-c769-41dd-afb6-6be79660b710
+Dec 02, 2017 6:54:24 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 0c2555fd-a016-4fe8-9e59-4771f4fcac6f
+Dec 02, 2017 6:54:29 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 394e400a-a572-454e-9212-f59cccb505ba
+Dec 02, 2017 6:54:30 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: baca99eb-ac89-42d8-8e7c-99383c805869
+Dec 02, 2017 6:54:30 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: b1e22996-2748-4908-b4d7-a85a0a29f1a5
+Dec 02, 2017 6:54:33 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: b952722f-c940-40d8-b6a0-bcee4cb6ab50
+Dec 02, 2017 6:54:37 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 8b643562-a398-4e8b-918e-6fff6633045a
+Dec 02, 2017 6:54:37 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 7cd87849-91d1-4def-b769-5633e54f65f1
+Dec 02, 2017 6:54:38 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 4e5ba15c-c23b-4538-96b9-71a054f2247e
+Dec 02, 2017 6:54:48 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 85003c8e-348e-4a2c-9293-1f24d1dbad2c
+Dec 02, 2017 6:54:49 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: f13bf96e-9ee5-4630-b0b7-ebbb265e2167
+Dec 02, 2017 6:54:49 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: a99a6277-7d4e-428e-8081-90b0ed01c5ae
+Dec 02, 2017 6:54:51 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 405d370b-9956-46c2-a73b-b1899112d570
+Dec 02, 2017 6:54:52 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 9fd77aa5-f16e-4590-9989-640fdbb6f5ea
+WARNING: Parsing of sentence failed, possibly because of out of memory.  Will ignore and continue: In the late 1990s I worked as a production assistant on the film `` U-571 '' starring Matthew McConaughey , Bill Paxton , Harvey Keitel , and Jon Bon Jovi , all of whom devoured entire bunches of bananas each week in order to ward off scurvy during the months-long shoot aboard a WWII era submarine.My sole responsibility on the production was to slice bananas for the actors , which I accomplished in tandem with the Best Banana Boy : he would toss the peeled bananas toward me , and using the clapperboard I would swiftly chop the fruit in mid-air , directing slices alternately into the open , awaiting mouths of McConaughey , Paxton , Keitel , Bon Jovi , and other actors & crew.During a two-day shore leave in the port of Hamburg , Germany , Bon Jovi encountered the Hutzler Brothers in an open-air market , where they were demonstrating a prototype kitchen appliance -LRB- inelegantly-named `` Magische gerät das lange sanft geschwungenen frucht teilt sich in mundgerechte medaillons '' -RRB- .
+WARNING: Parsing of sentence failed, possibly because of out of memory.  Will ignore and continue: Fourteen years later , a passing ship found us adrift in the Atlantic Ocean , floating on a raft we had built from discarded Blockbuster Video cases which had washed ashore over the years.We returned to the United States to find a changed world : among other shocking revelations , I learned that a Communist , Haitian Muslim had been re-elected to the Presidency of the United States and , even worse , that the instrument of our demise had been rechristened `` The Hutzler 571 Banana Slicer '' in honor of its inventors and the film production which had brought it to the New World , and that it had revolutionized the world of phallus-shaped fruit division.I am a man displaced in time , lacking the skills , knowledge , and experience to survive in the 21st century .
+Dec 02, 2017 6:55:21 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 5fd979a4-a98d-4de7-a082-3b269a36c34d
+Dec 02, 2017 6:55:27 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 61e53086-d702-4a2e-bd5f-89b1f9d40c6c
+Dec 02, 2017 6:55:27 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 61a9ee0f-8935-4331-a5d0-af08c876df4b
+Dec 02, 2017 6:55:28 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 63c66186-55fd-4bbf-ba0c-56f3a8f2b3c0
+Dec 02, 2017 6:55:28 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: d059954a-fc1d-4ee3-ae72-f52f8e4b41cc
+Dec 02, 2017 6:55:28 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 9aaa745a-60ff-4030-94f5-3c28a37b2c5c
+Dec 02, 2017 6:55:30 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 5662e72b-4263-4f21-808d-a24ae3665e25
+Dec 02, 2017 6:55:30 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 929dc962-15d1-4a88-9fa4-34906f426407
+Dec 02, 2017 6:55:30 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 4e5a032a-f127-4156-9825-d67dcb2de7ed
+Dec 02, 2017 6:55:30 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 4f60f21c-8d86-4241-b8f5-f2d8f07503c9
+Dec 02, 2017 6:55:30 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 843bb872-100c-4f9e-94cf-8f278609a01e
+Dec 02, 2017 6:55:31 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 55d7b0c7-8068-4c92-8da0-0de322fa7607
+Dec 02, 2017 6:55:31 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: c2e76f58-fda5-478d-8ae4-ffc7eee6da7c
+Dec 02, 2017 6:55:31 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 0ed14504-1056-4f5d-a2c4-a5bd8a0dbfcf
+Dec 02, 2017 6:55:32 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 3435a7de-490b-4cbf-b34b-329b009b8c5e
+Dec 02, 2017 6:55:32 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 18d3f992-50b6-4368-9d8a-4b2c5b465cf5
+Dec 02, 2017 6:55:32 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: ed0220db-9900-422d-9774-a2d4f2ee58fc
+Dec 02, 2017 6:55:32 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 3cd73570-37b9-43f5-af9c-3fc7fc42c4bc
+Dec 02, 2017 6:55:32 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 2d4f5cb3-e482-4d10-ab29-7d7176e32412
+Dec 02, 2017 6:55:32 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 3663fde3-43c5-4803-91fd-66350999d5e6
+Dec 02, 2017 6:55:33 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 77e98ec0-c186-41b0-90ec-77add0858bfb
+Dec 02, 2017 6:55:40 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 32064304-1195-40b0-b355-edf4324677e8
+Dec 02, 2017 6:55:40 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 174db88d-e488-4858-8a4b-f5f75ef7dd52
+Dec 02, 2017 6:55:40 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 9b6f37b4-cc78-4b97-ba7c-e795e81420be
+Dec 02, 2017 6:55:40 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 52a73bba-1821-4883-8dde-8b43d2e15988
+Dec 02, 2017 6:55:40 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 480f2d1c-40c8-4b1f-b612-ffdbad6588d5
+Dec 02, 2017 6:55:40 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 341ad1c9-f361-47ac-a101-a14c06606e99
+Dec 02, 2017 6:55:40 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: b8ee88bc-a600-448f-b0b8-e57c4ff3d291
+Dec 02, 2017 6:55:41 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 9ff061b7-0aa6-42a4-9b93-84124660276a
+Dec 02, 2017 6:55:41 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: f07f9ca1-4406-4bad-989c-1eef268320a5
+Dec 02, 2017 6:55:41 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: fd50732a-bc6a-43b6-bdd9-d49030169af1
+Dec 02, 2017 6:56:03 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 9140d343-aeff-46e6-a8a2-8fbcfff850f5
+Dec 02, 2017 6:56:07 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 5e0c4402-f6d5-4b5b-a2a9-1e503cd38224
+Dec 02, 2017 6:56:07 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: eb885eb6-bbfb-4477-8134-330357023dae
+Dec 02, 2017 6:56:07 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: c8b9a95c-2d5a-4a28-83c2-6668f391bf1e
+Dec 02, 2017 6:56:17 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 3c4680b0-4651-476e-97a7-924709ccdcc0
+Dec 02, 2017 6:56:18 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: b578be7f-2388-4b92-8dd6-0a5b59773eef
+Dec 02, 2017 6:56:19 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 4226051d-43ae-4870-a8d0-083914b7c6d6
+Dec 02, 2017 6:56:20 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 7e3c2474-6045-4d44-a0d4-f512a431c083
+Dec 02, 2017 6:56:21 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 2b54004d-ce84-4543-aa58-cd3313dc3ec8
+WARNING: Parsing of sentence failed, possibly because of out of memory.  Will ignore and continue: In the late 1990s I worked as a production assistant on the film `` U-571 '' starring Matthew McConaughey , Bill Paxton , Harvey Keitel , and Jon Bon Jovi , all of whom devoured entire bunches of bananas each week in order to ward off scurvy during the months-long shoot aboard a WWII era submarine.My sole responsibility on the production was to slice bananas for the actors , which I accomplished in tandem with the Best Banana Boy : he would toss the peeled bananas toward me , and using the clapperboard I would swiftly chop the fruit in mid-air , directing slices alternately into the open , awaiting mouths of McConaughey , Paxton , Keitel , Bon Jovi , and other actors & crew.During a two-day shore leave in the port of Hamburg , Germany , Bon Jovi encountered the Hutzler Brothers in an open-air market , where they were demonstrating a prototype kitchen appliance -LRB- inelegantly-named `` Magische gerät das lange sanft geschwungenen frucht teilt sich in mundgerechte medaillons '' -RRB- .
+WARNING: Parsing of sentence failed, possibly because of out of memory.  Will ignore and continue: Fourteen years later , a passing ship found us adrift in the Atlantic Ocean , floating on a raft we had built from discarded Blockbuster Video cases which had washed ashore over the years.We returned to the United States to find a changed world : among other shocking revelations , I learned that a Communist , Haitian Muslim had been re-elected to the Presidency of the United States and , even worse , that the instrument of our demise had been rechristened `` The Hutzler 571 Banana Slicer '' in honor of its inventors and the film production which had brought it to the New World , and that it had revolutionized the world of phallus-shaped fruit division.I am a man displaced in time , lacking the skills , knowledge , and experience to survive in the 21st century .
+Dec 02, 2017 6:56:38 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 341d93d7-645e-4ff7-9c14-393ca2606209
+Dec 02, 2017 7:24:02 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 6f85b09f-4065-420d-9461-4cdc3044a9fc
+Dec 02, 2017 7:24:02 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: b51919c0-b0f1-46bb-918a-d6ae93bf1c12
+Dec 02, 2017 7:24:02 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: dab7eb02-f95e-45b6-a05a-b296333c1d82
+Dec 02, 2017 7:24:02 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 4c832ac7-5270-43d6-b13a-d6b9a29c8e8a
+Dec 02, 2017 7:24:02 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: f7cdd349-8699-421c-abdb-d173e629ad38
+Dec 02, 2017 7:24:03 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 249b9e94-00b6-4c9e-8061-390dc1ff351c
+Dec 02, 2017 7:24:08 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 1d1b5b11-f56a-4655-a12b-38b033e82102
+Dec 02, 2017 7:24:21 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 5977021c-4067-4925-9f80-c0e6bc58e81e
+Dec 02, 2017 7:24:26 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 4e62aa32-7414-4235-bcfa-826aea361b03
+WARNING: Parsing of sentence failed, possibly because of out of memory.  Will ignore and continue: Luckily traffic was light on the 401 and I made it to the airport in record time , but knew that my chances of making the flight were still at risk if I did n't use my time wisely.I had n't eaten since lunch , and I was feeling a bit hungry , my stomach rumbling loudly in protestation , which caused me to look around at the other travellers rushing past me in the busy terminal , mortified that my bodily noises might be heard by others .
+Dec 02, 2017 7:26:46 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 65697c18-4e30-4bf7-81c3-a54308913555
+Dec 02, 2017 7:30:32 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 338e3934-3db3-409e-bb61-82098549d4e0
+Dec 02, 2017 7:30:32 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: d4f059ec-bbce-463c-9cf3-63b0f235759d
+Dec 02, 2017 7:30:32 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 8c069934-dbd2-420d-aa45-2712d1a430a2
+Dec 02, 2017 7:30:32 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: d77e6d58-f33a-4cd5-bb1e-948372d6449e
+Dec 02, 2017 7:30:32 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: f12b9401-24ea-42be-8004-0bdfb2dd83f7
+Dec 02, 2017 7:30:33 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 19acdd99-5a7a-44d4-a961-fbec1346ee26
+Dec 02, 2017 7:30:37 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 9e31163f-dca1-43bd-989a-6713bc0b5586
+Dec 02, 2017 7:30:51 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 270a2c27-cb1a-41e7-9dca-d1abeeb029ea
+Dec 02, 2017 7:30:57 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: b5433f70-c92e-43b8-8e07-bc21f79da82d
+Dec 02, 2017 7:33:12 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: cf61b415-8b48-40c5-84f2-19a7d1490d0d
+Dec 02, 2017 7:44:02 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 11cd3f4a-7476-4a59-a4dd-0ea724fa6905
+Dec 02, 2017 7:44:02 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: c1bc7412-681a-4651-9661-a3e0e13df379
+Dec 02, 2017 7:44:02 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 40d9013f-67e5-413c-b4f3-4d80008efbc8
+Dec 02, 2017 7:44:02 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 390ce104-ab0c-4356-85f2-e67adb64cc6d
+Dec 02, 2017 7:44:03 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 6885ebd5-10c3-4a60-bee4-c7f0ea217100
+Dec 02, 2017 7:44:03 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: b3f6c293-7921-4ae0-b435-df1317b01f0b
+Dec 02, 2017 7:44:07 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: e976b05f-bd34-49cb-8142-0d3026f0f769
+Dec 02, 2017 7:44:22 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 73a01589-d76f-48ae-8673-29cac299649c
+Dec 02, 2017 7:44:27 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 42167714-922c-4f14-95b8-37c9ea63dabc
+Dec 02, 2017 7:46:50 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: b88b40d4-d7b0-45a7-9c8f-5aeb9c1ffe00
+Dec 02, 2017 7:52:32 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 2fda5d89-60b2-4531-8fd2-5c60061c0f88
+Dec 02, 2017 7:52:32 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: baee2b07-4c37-4da4-9cc2-6f89998576f8
+Dec 02, 2017 7:52:32 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 416c33ea-3d8f-44da-a9e1-73a8e9f66663
+Dec 02, 2017 7:52:33 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 9a11d6fe-d03c-4565-83cb-1d1bc6c6280c
+Dec 02, 2017 7:52:33 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 2160eee4-da34-4abc-8198-61bf2e94b8b1
+Dec 02, 2017 7:52:33 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 6cf27a82-2e5f-4b17-b84b-ae4b56b0b7df
+Dec 02, 2017 7:52:38 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 23ba712b-30ee-4bc8-a66e-a251e406c936
+Dec 02, 2017 7:52:51 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: b88227c9-b57a-47df-8e61-ae72cee73962
+Dec 02, 2017 7:52:56 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 3f6fbef4-7a7c-4aeb-8b23-9c8816e7989b
+Dec 02, 2017 7:55:13 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: b6ff0638-5a1d-451a-808b-0a6897e3c89a

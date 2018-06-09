@@ -1,0 +1,76 @@
+-------------- status of instances -------------
+create instances: [{AmiLaunchIndex: 0,ImageId: ami-32d8124a,InstanceId: i-0674610bed3fcf834,InstanceType: t2.micro,KeyName: morKP,LaunchTime: Sat Dec 02 20:50:18 IST 2017,Monitoring: {State: disabled},Placement: {AvailabilityZone: us-west-2b,GroupName: ,Tenancy: default,},PrivateDnsName: ip-172-31-20-121.us-west-2.compute.internal,PrivateIpAddress: 172.31.20.121,ProductCodes: [],PublicDnsName: ,State: {Code: 0,Name: pending},StateTransitionReason: ,SubnetId: subnet-7a09491c,VpcId: vpc-ca86b8ac,Architecture: x86_64,BlockDeviceMappings: [],ClientToken: 0cb15382-6bce-4983-b670-4073af56bf45,EbsOptimized: false,Hypervisor: xen,IamInstanceProfile: {Arn: arn:aws:iam::504703692217:instance-profile/ManagerRole,Id: AIPAJ3V4EQH5OKV7T32FI},ElasticGpuAssociations: [],NetworkInterfaces: [{Attachment: {AttachTime: Sat Dec 02 20:50:18 IST 2017,AttachmentId: eni-attach-f7473a93,DeleteOnTermination: true,DeviceIndex: 0,Status: attaching},Description: ,Groups: [{GroupName: mor,GroupId: sg-d0b255ac}],Ipv6Addresses: [],MacAddress: 02:a1:a1:62:80:00,NetworkInterfaceId: eni-040cef27,OwnerId: 504703692217,PrivateDnsName: ip-172-31-20-121.us-west-2.compute.internal,PrivateIpAddress: 172.31.20.121,PrivateIpAddresses: [{Primary: true,PrivateDnsName: ip-172-31-20-121.us-west-2.compute.internal,PrivateIpAddress: 172.31.20.121}],SourceDestCheck: true,Status: in-use,SubnetId: subnet-7a09491c,VpcId: vpc-ca86b8ac}],RootDeviceName: /dev/xvda,RootDeviceType: ebs,SecurityGroups: [{GroupName: mor,GroupId: sg-d0b255ac}],SourceDestCheck: true,StateReason: {Code: pending,Message: pending},Tags: [],VirtualizationType: hvm}]
+===========================================
+Getting Started with Amazon S3
+===========================================
+
+Creating bucket akiaisatt3u2kglwoipq-c--users-mor-ideaprojects-assignment1
+
+Start s3
+Caught an AmazonClientException, which means the client encountered a serious internal problem while trying to communicate with S3, such as not being able to access the network.
+Error Message: Your previous request to create the named bucket succeeded and you already own it. (Service: Amazon S3; Status Code: 409; Error Code: BucketAlreadyOwnedByYou; Request ID: EBB41A3E90066F41; S3 Extended Request ID: Az18uLZDbJkAi3QquvYem921nIhg8x176kIm/i2RW032l9ZFh+OF3EuaU6/f+kvo853wgXekf74=)
+Uploading a new object to S3 from a file
+start a connection with the sqs
+===========================================
+Getting Started with Amazon SQS
+===========================================
+
+Creating a new SQS queue called ManagerToApp.
+
+Creating a new SQS queue called AppToManager.
+
+Dec 02, 2017 8:50:31 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 108dd705-42b4-402c-8431-4bd10cd63f80
+Sending a 0message to ApptoMamager
+
+the key:0689835604.txt
+Sending a 1message to ApptoMamager
+
+the key:B000EVOSE4.txt
+Dec 02, 2017 8:50:32 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 431dfb44-1f42-41d8-8074-3ce262094b15
+Sending a 2message to ApptoMamager
+
+the key:B001DZTJRQ.txt
+Dec 02, 2017 8:50:33 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: ac9e13fb-56cb-403d-a20f-11b72fb655ab
+Sending a 3message to ApptoMamager
+Dec 02, 2017 8:50:33 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+
+INFO: Message sent to SQS with SQS-assigned messageId: 3cc235d0-31c1-4c2f-986e-36036f2de858
+the key:B0047E0EII.txt
+Sending a 4message to ApptoMamager
+Dec 02, 2017 8:50:33 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+
+INFO: Message sent to SQS with SQS-assigned messageId: 4ec2d422-c701-4990-bc6c-20cc16ba65ae
+the key:B01LYRCIPG.txt
+Dec 02, 2017 8:50:33 PM com.amazon.sqs.javamessaging.SQSMessageProducer sendInternal
+INFO: Message sent to SQS with SQS-assigned messageId: 6974b24e-5f5d-4e5f-8dd3-91ff8099f5ca
+the num of files left: 4
+Dec 02, 2017 8:54:58 PM com.amazon.sqs.javamessaging.SQSMessageConsumer doClose
+INFO: Shutting down ConsumerPrefetch executor
+Dec 02, 2017 8:55:13 PM com.amazon.sqs.javamessaging.SQSSession doClose
+INFO: Shutting down SessionCallBackScheduler executor
+the num of files left: 3
+Dec 02, 2017 8:55:25 PM com.amazon.sqs.javamessaging.SQSMessageConsumer doClose
+INFO: Shutting down ConsumerPrefetch executor
+Dec 02, 2017 8:55:36 PM com.amazon.sqs.javamessaging.SQSSession doClose
+INFO: Shutting down SessionCallBackScheduler executor
+the num of files left: 2
+Dec 02, 2017 8:55:41 PM com.amazon.sqs.javamessaging.SQSMessageConsumer doClose
+INFO: Shutting down ConsumerPrefetch executor
+Dec 02, 2017 8:55:42 PM com.amazon.sqs.javamessaging.SQSSession doClose
+INFO: Shutting down SessionCallBackScheduler executor
+Dec 02, 2017 8:55:49 PM com.amazon.sqs.javamessaging.SQSMessageConsumer doClose
+INFO: Shutting down ConsumerPrefetch executor
+the num of files left: 1
+Dec 02, 2017 8:56:05 PM com.amazon.sqs.javamessaging.SQSSession doClose
+INFO: Shutting down SessionCallBackScheduler executor
+the num of files left: 0
+Dec 02, 2017 8:56:48 PM com.amazon.sqs.javamessaging.SQSMessageConsumer doClose
+INFO: Shutting down ConsumerPrefetch executor
+Dec 02, 2017 8:57:03 PM com.amazon.sqs.javamessaging.SQSSession doClose
+the local app is finished 0
+INFO: Shutting down SessionCallBackScheduler executor
+Dec 02, 2017 8:57:03 PM com.amazon.sqs.javamessaging.SQSSession doClose
+INFO: Shutting down SessionCallBackScheduler executor

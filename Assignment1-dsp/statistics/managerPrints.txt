@@ -1,0 +1,541 @@
+===========================================
+connect to aws & ec2
+===========================================
+
+===========================================
+Getting Started with Amazon SQS
+===========================================
+
+========================
+connect to S3
+Creating a new SQS queue called ManagerToWorker.
+
+Creating a new SQS queue called WorkerToManager.
+
+
+ run t1- the SQSThread 
+
+
+ run t2- the Worker thread  
+
+message text: pool-1-thread-89 {"bucketName":"akiaisatt3u2kglwoipq-c--users-mor-ideaprojects-assignment1","key":"B001DZTJRQ.txt","URL":"https://akiaisatt3u2kglwoipq-c--users-mor-ideaprojects-assignment1.s3-us-west-2.amazonaws.com/B001DZTJRQ.txt","action":1,"uuid":"850f7ffb-3dea-4f9a-868e-675077f43d3b"}
+message text: pool-1-thread-91 {"bucketName":"akiaisatt3u2kglwoipq-c--users-mor-ideaprojects-assignment1","key":"0689835604.txt","URL":"https://akiaisatt3u2kglwoipq-c--users-mor-ideaprojects-assignment1.s3-us-west-2.amazonaws.com/0689835604.txt","action":1,"uuid":"850f7ffb-3dea-4f9a-868e-675077f43d3b"}
+message text: pool-1-thread-98 {"bucketName":"akiaisatt3u2kglwoipq-c--users-mor-ideaprojects-assignment1","key":"B01LYRCIPG.txt","URL":"https://akiaisatt3u2kglwoipq-c--users-mor-ideaprojects-assignment1.s3-us-west-2.amazonaws.com/B01LYRCIPG.txt","action":1,"uuid":"850f7ffb-3dea-4f9a-868e-675077f43d3b"}
+message text: pool-1-thread-97 {"bucketName":"akiaisatt3u2kglwoipq-c--users-mor-ideaprojects-assignment1","key":"B000EVOSE4.txt","URL":"https://akiaisatt3u2kglwoipq-c--users-mor-ideaprojects-assignment1.s3-us-west-2.amazonaws.com/B000EVOSE4.txt","action":1,"uuid":"850f7ffb-3dea-4f9a-868e-675077f43d3b"}
+message text: pool-1-thread-96 {"num":15,"action":4,"uuid":"850f7ffb-3dea-4f9a-868e-675077f43d3b"}
+message text: pool-1-thread-95 {"bucketName":"akiaisatt3u2kglwoipq-c--users-mor-ideaprojects-assignment1","key":"B0047E0EII.txt","URL":"https://akiaisatt3u2kglwoipq-c--users-mor-ideaprojects-assignment1.s3-us-west-2.amazonaws.com/B0047E0EII.txt","action":1,"uuid":"850f7ffb-3dea-4f9a-868e-675077f43d3b"}
+in terminate false
+in terminate false
+in terminate false
+in terminate false
+in terminate false
+in terminate false
+the num of jobs: 1
+the num of active workers: 0
+the num of jobs: 2
+the num of active workers: 0
+the num of jobs: 3
+the num of active workers: 0
+the num of jobs: 4
+the num of active workers: 0
+the num of jobs: 5
+the num of active workers: 0
+the num of jobs: 6
+the num of active workers: 0
+the num of jobs: 7
+the num of active workers: 0
+the num of jobs: 8
+the num of active workers: 0
+the num of jobs: 9
+the num of active workers: 0
+the num of jobs: 10
+the num of active workers: 0
+the num of jobs: 11
+the num of active workers: 0
+the num of jobs: 12
+the num of active workers: 0
+the num of jobs: 13
+the num of active workers: 0
+the num of jobs: 14
+the num of active workers: 0
+the num of jobs: 15
+the num of active workers: 0
+the num of workers that we need to create:: 1
+the num of jobs: 16
+the num of active workers: 0
+the num of jobs: 17
+the num of active workers: 0
+the num of jobs: 18
+the num of active workers: 0
+the num of jobs: 19
+the num of active workers: 0
+the num of jobs: 20
+the num of active workers: 1
+the num of jobs: 21
+the num of active workers: 1
+the num of jobs: 22
+the num of active workers: 1
+the num of jobs: 23
+the num of active workers: 1
+the num of jobs: 24
+the num of active workers: 1
+the num of jobs: 25
+the num of active workers: 1
+the num of jobs: 26
+the num of active workers: 1
+the num of jobs: 27
+the num of active workers: 1
+the num of jobs: 28
+the num of active workers: 1
+the num of jobs: 29
+the num of active workers: 1
+the num of jobs: 30
+the num of active workers: 1
+the num of workers that we need to create:: 1
+the num of jobs: 31
+the num of active workers: 1
+the num of jobs: 32
+the num of active workers: 1
+the num of jobs: 33
+the num of active workers: 1
+the num of jobs: 34
+the num of active workers: 1
+the num of jobs: 35
+the num of active workers: 2
+the num of jobs: 36
+the num of active workers: 2
+the num of jobs: 37
+the num of active workers: 2
+the num of jobs: 38
+the num of active workers: 2
+the num of jobs: 39
+the num of active workers: 2
+the num of jobs: 40
+the num of active workers: 2
+the num of jobs: 41
+the num of active workers: 2
+the num of jobs: 42
+the num of active workers: 2
+the num of jobs: 43
+the num of active workers: 2
+the num of jobs: 44
+the num of active workers: 2
+the num of jobs: 45
+the num of active workers: 2
+the num of workers that we need to create:: 1
+the num of jobs: 46
+the num of active workers: 2
+the num of jobs: 47
+the num of active workers: 2
+the num of jobs: 48
+the num of active workers: 2
+the num of jobs: 49
+the num of active workers: 2
+the num of jobs: 50
+the num of active workers: 3
+the num of jobs: 51
+the num of active workers: 3
+the num of jobs: 52
+the num of active workers: 3
+the num of jobs: 53
+the num of active workers: 3
+the num of jobs: 54
+the num of active workers: 3
+the num of jobs: 55
+the num of active workers: 3
+the num of jobs: 56
+the num of active workers: 3
+the num of jobs: 57
+the num of active workers: 3
+the num of jobs: 58
+the num of active workers: 3
+the num of jobs: 59
+the num of active workers: 3
+the num of jobs: 60
+the num of active workers: 3
+the num of workers that we need to create:: 1
+the num of jobs: 61
+the num of active workers: 3
+the num of jobs: 62
+the num of active workers: 3
+the num of jobs: 63
+the num of active workers: 3
+the num of jobs: 64
+the num of active workers: 3
+the num of jobs: 65
+the num of active workers: 4
+the num of jobs: 66
+the num of active workers: 4
+the num of jobs: 67
+the num of active workers: 4
+the num of jobs: 68
+the num of active workers: 4
+the num of jobs: 69
+the num of active workers: 4
+the num of jobs: 70
+the num of active workers: 4
+the num of jobs: 71
+the num of active workers: 4
+the num of jobs: 72
+the num of active workers: 4
+the num of jobs: 73
+the num of active workers: 4
+the num of jobs: 74
+the num of active workers: 4
+the num of jobs: 75
+the num of active workers: 4
+the num of workers that we need to create:: 1
+the num of jobs: 76
+the num of active workers: 4
+the num of jobs: 77
+the num of active workers: 4
+the num of jobs: 78
+the num of active workers: 4
+the num of jobs: 79
+the num of active workers: 4
+the num of jobs: 80
+the num of active workers: 5
+the num of jobs: 81
+the num of active workers: 5
+the num of jobs: 82
+the num of active workers: 5
+the num of jobs: 83
+the num of active workers: 5
+the num of jobs: 84
+the num of active workers: 5
+the num of jobs: 85
+the num of active workers: 5
+the num of jobs: 86
+the num of active workers: 5
+the num of jobs: 87
+the num of active workers: 5
+the num of jobs: 88
+the num of active workers: 5
+the num of jobs: 89
+the num of active workers: 5
+the num of jobs: 90
+the num of active workers: 5
+the num of workers that we need to create:: 1
+the num of jobs: 91
+the num of active workers: 5
+the num of jobs: 92
+the num of active workers: 5
+the num of jobs: 93
+the num of active workers: 5
+the num of jobs: 94
+the num of active workers: 5
+the num of jobs: 95
+the num of active workers: 6
+the num of jobs: 96
+the num of active workers: 6
+the num of jobs: 97
+the num of active workers: 6
+the num of jobs: 98
+the num of active workers: 6
+the num of jobs: 99
+the num of active workers: 6
+the num of jobs: 100
+the num of active workers: 6
+the num of jobs: 101
+the num of active workers: 6
+the num of jobs: 102
+the num of active workers: 6
+the num of jobs: 103
+the num of active workers: 6
+the num of jobs: 104
+the num of active workers: 6
+the num of jobs: 105
+the num of active workers: 6
+the num of workers that we need to create:: 1
+the num of jobs: 106
+the num of active workers: 6
+the num of jobs: 107
+the num of active workers: 6
+the num of jobs: 108
+the num of active workers: 6
+the num of jobs: 109
+the num of active workers: 6
+the num of jobs: 110
+the num of active workers: 7
+the num of jobs: 111
+the num of active workers: 7
+the num of jobs: 112
+the num of active workers: 7
+the num of jobs: 113
+the num of active workers: 7
+the num of jobs: 114
+the num of active workers: 7
+the num of jobs: 115
+the num of active workers: 7
+the num of jobs: 116
+the num of active workers: 7
+the num of jobs: 117
+the num of active workers: 7
+the num of jobs: 118
+the num of active workers: 7
+the num of jobs: 119
+the num of active workers: 7
+the num of jobs: 120
+the num of active workers: 7
+the num of workers that we need to create:: 1
+the num of jobs: 123
+the num of active workers: 7
+the num of jobs: 122
+the num of active workers: 7
+the num of jobs: 121
+the num of active workers: 7
+the num of jobs: 124
+the num of active workers: 7
+the num of jobs: 125
+the num of active workers: 8
+the num of jobs: 126
+the num of active workers: 8
+the num of jobs: 127
+the num of active workers: 8
+the num of jobs: 128
+the num of active workers: 8
+the num of jobs: 129
+the num of active workers: 8
+the num of jobs: 130
+the num of active workers: 8
+the num of jobs: 131
+the num of active workers: 8
+the num of jobs: 132
+the num of active workers: 8
+the num of jobs: 133
+the num of active workers: 8
+the num of jobs: 134
+the num of active workers: 8
+the num of jobs: 135
+the num of active workers: 8
+the num of workers that we need to create:: 1
+the num of jobs: 136
+the num of active workers: 8
+the num of jobs: 137
+the num of active workers: 8
+the num of jobs: 138
+the num of active workers: 8
+the num of jobs: 139
+the num of active workers: 8
+the num of jobs: 140
+the num of active workers: 9
+the num of jobs: 141
+the num of active workers: 9
+the num of jobs: 142
+the num of active workers: 9
+the num of jobs: 143
+the num of active workers: 9
+the num of jobs: 144
+the num of active workers: 9
+the num of jobs: 145
+the num of active workers: 9
+the num of jobs: 146
+the num of active workers: 9
+the num of jobs: 147
+the num of active workers: 9
+the num of jobs: 148
+the num of active workers: 9
+the num of jobs: 149
+the num of active workers: 9
+the num of jobs: 150
+the num of active workers: 9
+the num of workers that we need to create:: 1
+the num of jobs: 151
+the num of active workers: 9
+the num of jobs: 152
+the num of active workers: 9
+the num of jobs: 153
+the num of active workers: 9
+the num of jobs: 154
+the num of active workers: 9
+the num of jobs: 155
+the num of active workers: 10
+the num of jobs: 156
+the num of active workers: 10
+the num of jobs: 157
+the num of active workers: 10
+the num of jobs: 158
+the num of active workers: 10
+the num of jobs: 159
+the num of active workers: 10
+the num of jobs: 160
+the num of active workers: 10
+the num of jobs: 161
+the num of active workers: 10
+the num of jobs: 162
+the num of active workers: 10
+the num of jobs: 163
+the num of active workers: 10
+the num of jobs: 164
+the num of active workers: 10
+the num of jobs: 165
+the num of active workers: 10
+the num of workers that we need to create:: 1
+the num of jobs: 166
+the num of active workers: 10
+the num of jobs: 167
+the num of active workers: 10
+the num of jobs: 168
+the num of active workers: 10
+the num of jobs: 169
+the num of active workers: 10
+the num of jobs: 170
+the num of active workers: 11
+the num of jobs: 171
+the num of active workers: 11
+the num of jobs: 172
+the num of active workers: 11
+the num of jobs: 173
+the num of active workers: 11
+the num of jobs: 174
+the num of active workers: 11
+the num of jobs: 175
+the num of active workers: 11
+the num of jobs: 176
+the num of active workers: 11
+the num of jobs: 177
+the num of active workers: 11
+the num of jobs: 178
+the num of active workers: 11
+the num of jobs: 179
+the num of active workers: 11
+the num of jobs: 180
+the num of active workers: 11
+the num of workers that we need to create:: 1
+the num of jobs: 181
+the num of active workers: 11
+the num of jobs: 183
+the num of active workers: 11
+the num of jobs: 182
+the num of active workers: 11
+the num of jobs: 184
+the num of active workers: 11
+the num of jobs: 185
+the num of active workers: 12
+the num of jobs: 186
+the num of active workers: 12
+the num of jobs: 187
+the num of active workers: 12
+the num of jobs: 188
+the num of active workers: 12
+the num of jobs: 189
+the num of active workers: 12
+the num of jobs: 190
+the num of active workers: 12
+the num of jobs: 191
+the num of active workers: 12
+the num of jobs: 192
+the num of active workers: 12
+the num of jobs: 193
+the num of active workers: 12
+the num of jobs: 194
+the num of active workers: 12
+the num of jobs: 195
+the num of active workers: 12
+the num of workers that we need to create:: 1
+the num of jobs: 196
+the num of active workers: 12
+the num of jobs: 197
+the num of active workers: 12
+the num of jobs: 198
+the num of active workers: 12
+the num of jobs: 199
+the num of active workers: 12
+the num of jobs: 200
+the num of active workers: 13
+the num of jobs: 201
+the num of active workers: 13
+the num of jobs: 202
+the num of active workers: 13
+the num of jobs: 203
+the num of active workers: 13
+the num of jobs: 204
+the num of active workers: 13
+the num of jobs: 205
+the num of active workers: 13
+the num of jobs: 206
+the num of active workers: 13
+the num of jobs: 207
+the num of active workers: 13
+the num of jobs: 208
+the num of active workers: 13
+the num of jobs: 209
+the num of active workers: 13
+the num of jobs: 210
+the num of active workers: 13
+the num of workers that we need to create:: 1
+the num of jobs: 211
+the num of active workers: 13
+the num of jobs: 212
+the num of active workers: 13
+the num of jobs: 213
+the num of active workers: 13
+the num of jobs: 214
+the num of active workers: 13
+the num of jobs: 215
+the num of active workers: 14
+the num of jobs: 216
+the num of active workers: 14
+the num of jobs: 217
+the num of active workers: 14
+the num of jobs: 218
+the num of active workers: 14
+the num of jobs: 219
+the num of active workers: 14
+the num of jobs: 220
+the num of active workers: 14
+the num of jobs: 221
+the num of active workers: 14
+the num of jobs: 222
+the num of active workers: 14
+the num of jobs: 223
+the num of active workers: 14
+the num of jobs: 224
+the num of active workers: 14
+the num of jobs: 225
+the num of active workers: 14
+the num of workers that we need to create:: 1
+the num of jobs: 226
+the num of active workers: 14
+the num of jobs: 227
+the num of active workers: 14
+the num of jobs: 228
+the num of active workers: 14
+the num of jobs: 229
+the num of active workers: 14
+the num of jobs: 230
+the num of active workers: 15
+the num of jobs: 231
+the num of active workers: 15
+the num of jobs: 232
+the num of active workers: 15
+the num of jobs: 233
+the num of active workers: 15
+the num of jobs: 234
+the num of active workers: 15
+the num of jobs: 235
+the num of active workers: 15
+the num of jobs: 236
+the num of active workers: 15
+the num of jobs: 237
+the num of active workers: 15
+the num of jobs: 238
+the num of active workers: 15
+the num of jobs: 239
+the num of active workers: 15
+the num of jobs: 240
+the num of active workers: 15
+the num of workers that we need to create:: 1
+the num of jobs: 241
+the num of active workers: 16
+the num of jobs: 242
+the num of active workers: 16
+the num of jobs: 243
+the num of active workers: 16
+the num of jobs: 244
+the num of active workers: 16
+upload the files to s3
+upload the files to s3
+upload the files to s3
+upload the files to s3
+upload the files to s3

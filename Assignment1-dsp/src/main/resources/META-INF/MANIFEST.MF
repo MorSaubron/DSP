@@ -1,0 +1,68 @@
+Manifest-Version: 1.0
+Class-Path: aws-java-sdk-glue-1.11.224.jar aws-java-sdk-workspaces-1.1
+ 1.224.jar aws-java-sdk-models-1.11.224.jar aws-java-sdk-marketplaceme
+ teringservice-1.11.224.jar aws-java-sdk-dax-1.11.224.jar aws-java-sdk
+ -directory-1.11.224.jar aws-java-sdk-datapipeline-1.11.224.jar aws-ja
+ va-sdk-sts-1.11.224.jar aws-java-sdk-servermigration-1.11.224.jar aws
+ -java-sdk-kinesis-1.11.224.jar gson-2.2.4.jar aws-java-sdk-cloudwatch
+ metrics-1.11.224.jar aws-java-sdk-elasticbeanstalk-1.11.224.jar aws-j
+ ava-sdk-mechanicalturkrequester-1.11.224.jar aws-java-sdk-codedeploy-
+ 1.11.224.jar httpcore-4.4.4.jar jackson-annotations-2.6.0.jar aws-jav
+ a-sdk-codecommit-1.11.224.jar aws-java-sdk-kms-1.11.224.jar joda-time
+ -2.8.1.jar commons-logging-1.1.3.jar ion-java-1.0.2.jar aws-java-sdk-
+ ssm-1.11.224.jar aws-java-sdk-polly-1.11.224.jar aws-java-sdk-service
+ catalog-1.11.224.jar aws-java-sdk-logs-1.11.224.jar jackson-core-2.6.
+ 7.jar aws-java-sdk-dynamodb-1.11.224.jar aws-java-sdk-elasticache-1.1
+ 1.224.jar aws-java-sdk-ec2-1.11.224.jar aws-java-sdk-simpledb-1.11.22
+ 4.jar aws-java-sdk-elastictranscoder-1.11.224.jar aws-java-sdk-lambda
+ -1.11.224.jar aws-java-sdk-lightsail-1.11.224.jar aws-java-sdk-migrat
+ ionhub-1.11.224.jar aws-java-sdk-storagegateway-1.11.224.jar aws-java
+ -sdk-organizations-1.11.224.jar aws-java-sdk-marketplaceentitlement-1
+ .11.224.jar aws-java-sdk-opsworkscm-1.11.224.jar commons-codec-1.9.ja
+ r aws-java-sdk-pinpoint-1.11.224.jar aws-java-sdk-support-1.11.224.ja
+ r aws-java-sdk-discovery-1.11.224.jar aws-java-sdk-dms-1.11.224.jar a
+ ws-java-sdk-iam-1.11.224.jar aws-java-sdk-cloudhsmv2-1.11.224.jar aws
+ -java-sdk-s3-1.11.224.jar aws-java-sdk-shield-1.11.224.jar aws-java-s
+ dk-lexmodelbuilding-1.11.224.jar aws-java-sdk-efs-1.11.224.jar aws-ja
+ va-sdk-api-gateway-1.11.224.jar hamcrest-core-1.1.jar aws-java-sdk-cl
+ oudsearch-1.11.224.jar aws-java-sdk-directconnect-1.11.224.jar jackso
+ n-dataformat-cbor-2.6.7.jar aws-java-sdk-waf-1.11.224.jar aws-java-sd
+ k-ses-1.11.224.jar aws-java-sdk-cognitosync-1.11.224.jar aws-java-sdk
+ -health-1.11.224.jar aws-java-sdk-cognitoidentity-1.11.224.jar aws-ja
+ va-sdk-clouddirectory-1.11.224.jar amazon-sqs-java-messaging-lib-1.0.
+ 4.jar aws-java-sdk-opsworks-1.11.224.jar aws-java-sdk-rekognition-1.1
+ 1.224.jar aws-java-sdk-ecr-1.11.224.jar aws-java-sdk-swf-libraries-1.
+ 11.22.jar aws-java-sdk-redshift-1.11.224.jar jackson-databind-2.6.7.1
+ .jar aws-java-sdk-workdocs-1.11.224.jar javax.annotation.jar javax.jm
+ s.jar javax.ejb.jar javax.persistence.jar javax.transaction.jar javax
+ .resource.jar javax.servlet.jar javax.servlet.jsp.jar javax.servlet.j
+ sp.jstl.jar aws-java-sdk-marketplacecommerceanalytics-1.11.224.jar aw
+ s-java-sdk-xray-1.11.224.jar json-simple-1.1.1.jar aws-java-sdk-resou
+ rcegroupstaggingapi-1.11.224.jar aws-java-sdk-autoscaling-1.11.224.ja
+ r aws-java-sdk-elasticsearch-1.11.224.jar aws-java-sdk-greengrass-1.1
+ 1.224.jar httpclient-4.5.2.jar aws-java-sdk-ecs-1.11.224.jar aws-java
+ -sdk-importexport-1.11.224.jar aws-java-sdk-codebuild-1.11.224.jar aw
+ s-java-sdk-1.11.224.jar aws-java-sdk-codepipeline-1.11.224.jar aws-ja
+ va-sdk-lex-1.11.224.jar ejml-0.23.jar jollyday-0.4.7.jar stanford-cor
+ enlp-3.3.0.jar stanford-corenlp-3.3.0-models.jar aws-java-sdk-gamelif
+ t-1.11.224.jar aws-java-sdk-devicefarm-1.11.224.jar aws-java-sdk-rds-
+ 1.11.224.jar aws-java-sdk-appstream-1.11.224.jar aws-java-sdk-cloudfr
+ ont-1.11.224.jar jmespath-java-1.11.224.jar aws-java-sdk-codestar-1.1
+ 1.224.jar aws-java-sdk-elasticloadbalancingv2-1.11.224.jar aws-java-s
+ dk-athena-1.11.224.jar aws-java-sdk-acm-1.11.224.jar aws-java-sdk-cog
+ nitoidp-1.11.224.jar aws-java-sdk-sns-1.11.224.jar aws-java-sdk-cloud
+ hsm-1.11.224.jar aws-java-sdk-costandusagereport-1.11.224.jar aws-jav
+ a-sdk-glacier-1.11.224.jar aws-java-sdk-cloudwatch-1.11.224.jar aws-j
+ ava-sdk-budgets-1.11.224.jar aws-java-sdk-config-1.11.224.jar aws-jav
+ a-sdk-machinelearning-1.11.224.jar aws-java-sdk-elasticloadbalancing-
+ 1.11.224.jar aws-java-sdk-cloudformation-1.11.224.jar aws-java-sdk-mo
+ bile-1.11.224.jar aws-java-sdk-events-1.11.224.jar aws-java-sdk-snowb
+ all-1.11.224.jar aws-java-sdk-inspector-1.11.224.jar aws-java-sdk-sqs
+ -1.11.224.jar aws-java-sdk-applicationautoscaling-1.11.224.jar junit-
+ 4.10.jar aws-java-sdk-stepfunctions-1.11.224.jar geronimo-jms_1.1_spe
+ c-1.1.1.jar aws-java-sdk-iot-1.11.224.jar aws-java-sdk-simpleworkflow
+ -1.11.224.jar aws-java-sdk-core-1.11.224.jar aws-java-sdk-route53-1.1
+ 1.224.jar aws-java-sdk-emr-1.11.224.jar aws-java-sdk-cloudtrail-1.11.
+ 224.jar aws-java-sdk-batch-1.11.224.jar
+Main-Class: LocalApp
+

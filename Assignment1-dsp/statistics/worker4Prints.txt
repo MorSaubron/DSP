@@ -1,0 +1,68 @@
+===========================================
+connect to aws & ec2
+===========================================
+
+===========================================
+Getting Started with Amazon SQS
+===========================================
+
+it was mine: 1 message
+it was mine: 2 message
+it was mine: 3 message
+it was mine: 4 message
+it was mine: 5 message
+it was mine: 6 message
+it was mine: 7 message
+it was mine: 8 message
+it was mine: 9 message
+it was mine: 10 message
+it was mine: 11 message
+it was mine: 12 message
+it was mine: 13 message
+it was mine: 14 message
+it was mine: 15 message
+it was mine: 16 message
+it was mine: 17 message
+it was mine: 18 message
+it was mine: 19 message
+it was mine: 20 message
+it was mine: 21 message
+it was mine: 22 message
+it was mine: 23 message
+it was mine: 24 message
+it was mine: 25 message
+it was mine: 26 message
+it was mine: 27 message
+it was mine: 28 message
+it was mine: 29 message
+it was mine: 30 message
+it was mine: 31 message
+it was mine: 32 message
+it was mine: 33 message
+it was mine: 34 message
+it was mine: 35 message
+it was mine: 36 message
+it was mine: 37 message
+it was mine: 38 message
+it was mine: 39 message
+it was mine: 40 message
+it was mine: 41 message
+it was mine: 42 message
+it was mine: 43 message
+it was mine: 44 message
+it was mine: 45 message
+it was mine: 46 message
+it was mine: 47 message
+it was mine: 48 message
+it was mine: 49 message
+it was mine: 50 message
+it was mine: 51 message
+it was mine: 52 message
+it was mine: 53 message
+it was mine: 54 message
+it was mine: 55 message
+it was mine: 56 message
+it was mine: 57 message
+it was mine: 58 message
+it was mine: 59 message
+it was mine: 60 message
